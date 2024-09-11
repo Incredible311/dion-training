@@ -1,5 +1,6 @@
 "use client";
 
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart } from '../../store/cartSlice';
 import { SignedOut, SignedIn } from '@clerk/nextjs';

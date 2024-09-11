@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import ProductCard from '../components/ProductCard';
 import ProductForm from '@/components/ProductForm';
 import { getProducts } from '../services/productService';
