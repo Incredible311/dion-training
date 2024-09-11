@@ -1,8 +1,8 @@
 "use client";
 
 import { useRouter } from 'next/navigation';
-import { useEffect, useState } from 'react';
-import { getProductById, updateProduct, deleteProduct } from '../../../services/productService';
+import React, { useEffect, useState } from 'react';
+import { getProductById, deleteProduct } from '../../../services/productService';
 import ProductForm from '@/components/ProductForm';
 import Image from 'next/image';
 import Link from 'next/link';
